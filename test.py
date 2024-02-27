@@ -1,7 +1,6 @@
 from mistralai.client import MistralClient, ChatMessage
-import requests
-import numpy as np
-import faiss
+#import numpy as np
+#import faiss
 import os
 
 apikey=os.environ.get('LECHATBLEUAPIKEY')
